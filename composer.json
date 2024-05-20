@@ -2,19 +2,16 @@
   "name": "specbee/drupal-quality-checker",
   "description": "Setups code quality checking tools for Drupal project.",
   "license": "MIT",
-  "type": "project",
+  "type": "composer-plugin",
   "authors": [
     {
-      "name": "Vijaya Chandran Mani",
-      "homepage": "https://www.drupal.org/u/vijaycs85",
-      "role": "Maintainer"
-    },
-    {
-      "name": "Malabya Tewari",
-      "homepage": "https://specbee.com"
+      "name": "Specbee",
+      "email": "developer@specbee.com",
+      "homepage": "https://specbee.com",
+      "role": "maintainer"
     }
   ],
-  "homepage": "https://github.com/vijaycs85/drupal-quality-checker",
+  "homepage": "https://github.com/SpecbeeLabs/drupal-quality-checker",
   "support": {
     "issues": "https://github.com/SpecbeeLabs/drupal-quality-checker/issues",
     "source": "https://github.com/SpecbeeLabs/drupal-quality-checker"
@@ -24,9 +21,9 @@
     "drupal/coder": ">=8.3",
     "ergebnis/composer-normalize": "^2.5",
     "friendsoftwig/twigcs": "^4.0 || ^5.0 || ^6.0",
+    "mglaman/phpstan-drupal": "^1.2",
     "php-parallel-lint/php-parallel-lint": "^1.2",
-    "phpro/grumphp-shim": "^1.0.0",
-    "sebastian/phpcpd": "^3.0 || ^4.0 || ^5.0 || ^6.0"
+    "phpro/grumphp-shim": "^1.0.0"
   },
   "config": {
     "allow-plugins": {
