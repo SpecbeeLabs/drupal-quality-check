@@ -2,7 +2,7 @@
   "name": "specbee/drupal-quality-checker",
   "description": "Setups code quality checking tools for Drupal project.",
   "license": "MIT",
-  "type": "composer-plugin",
+  "type": "project",
   "authors": [
     {
       "name": "Specbee",
